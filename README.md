@@ -1,16 +1,16 @@
 # Sadiq-Ahmed
-hello,welcome to my mini project "chaliya shuru kartay hay firstly hum iskay feature dekh laytay hay or unboxing kartay hay meray code ko jo bahot hi dimag khaya hay mera:-----"
+hello, welcome to my mini project:-----"
 
----------------------------------******* Namaskar may youth ka vafadar pythoncode kumar ************-----------------------------------------------------
+---------------------------------*******************-----------------------------------------------------
 ---------------------------------******* lets begins with *********************------------------------------------------------------------------------
 
-import face_recognition as sr   #for lisining the user input through the voice
-import pyttsx3   # for speaking what user says
+import face_recognition as sr   #for listening to the user input through the voice
+import pyttsx3   # for speaking what the user says
 
 step1:-
 
 Creating a Recognizer Object:-
- we need to create a Recognizer object, which will be responsible for recognizing the speech...
+ we need to create a Recognizer object, which will recognize the speech...
 
 
 recognizer = sr.Recognizer()
@@ -48,7 +48,7 @@ def recognize_speech(audio):
         print("Sorry, there was an error processing your request.")
 
 step4:-
-in this step we have to define the speak function, which is written below.....!!
+in this step, we must define the speak function, which is written below.....!!
 
 def speak(text):
     engine=pyttsx3.init()
@@ -60,7 +60,7 @@ def speak(text):
 
 step5:-Put It All Together.......!!!!!!!!!!
 
-lastly,  put the above code which i have just writen and then --"boom"-- that records audio and recognizes speech:
+lastly,  put the above code which I have just written, and then --"boom"-- that records audio and recognizes speech:
 
 
 
@@ -101,11 +101,11 @@ When you run this code, it will listen to your speech and speak out the recogniz
 
 
 conclusion:-
-The above code is written for the puprose of problem solving the labour cost problems like for an instance if the resturant or any small scale 
-bussiness have to take a feedback or take any orders from customer they must have to hire the skilled person to handel customer.
-but this program which i written it can be modify in such a mannner that can be handle huge customers at a time to solve the problems for online platforms like uber,zommato,myntra,flipkart,amazon many moree...
+The above code is written for problem-solving labor cost problems for instance if the restaurant or any small-scale 
+business has to take feedback or take any orders from customers they must have to hire a skilled person to handle customers.
+but this program which I wrote can be modified in such a manner that it can handle huge customers at a time to solve the problems for online platforms like Uber,zommato,myntra, Flipkart, amazon many more...
 
 
 references:-
-Python Notes which i have learned till know, and libraries and google.......
+Python Notes which I have learned till now, and libraries and Google.......
 ----------------------------------------------------------------------------------------------------**** By Sadiq Ahmed ***------------------
