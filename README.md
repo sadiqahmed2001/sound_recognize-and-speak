@@ -5,7 +5,7 @@ hello, welcome to my mini project:-----"
 ---------------------------------******* lets begins with *********************------------------------------------------------------------------------
 
 import face_recognition as sr   #for listening to the user input through the voice
-import pyttsx3   # for speaking what the user says
+import pyttsx3   # for speaking what the user says 
 
 step1:-
 
