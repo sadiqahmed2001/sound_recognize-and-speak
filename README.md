@@ -1,4 +1,4 @@
-# mini-project:-python
+# sound_recognize and speak:-python
 hello, welcome to my mini project:-----"
 
 ---------------------------------*******************-----------------------------------------------------
